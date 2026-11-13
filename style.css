@@ -1,0 +1,7 @@
+body { font-family: "DM Sans", Georgia, sans-serif; background: #f8f1e1; background-image: radial-gradient(circle at 10% 0%, #fdf8ec 0, transparent 45%); }
+h1, h2, h3 { font-family: "Fraunces", Georgia, "Times New Roman", serif; letter-spacing: -0.01em; }
+.card { background: #fffdf7; border: 1px solid #e8dcc0; border-radius: 1.25rem; box-shadow: 0 2px 0 #e8dcc0; padding: 1.5rem; }
+.bar-fill { transition: width .5s ease; }
+.check-btn { transition: all .2s; }
+.pop { animation: pop .5s ease; }
+@keyframes pop { 0% { transform: scale(.9); opacity: 0 } 100% { transform: scale(1); opacity: 1 } }
